@@ -13,17 +13,11 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-  "pytest>=9",
-  "pytest-qt>=4.5",
   "pyinstaller>=6.19",
 ]
 
 [project.scripts]
 video-grid-compositor = "pyapp.main:main"
-
-[tool.pytest.ini_options]
-testpaths = ["tests"]
-pythonpath = ["."]
 
 [tool.setuptools.packages.find]
 where = ["."]

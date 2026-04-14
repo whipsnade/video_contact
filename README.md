@@ -24,12 +24,6 @@ pip install -e ".[dev]"
 python -m pyapp.main
 ```
 
-## 测试
-
-```bash
-pytest
-```
-
 ## 打包便携版
 
 推荐用脚本直接生成 one-folder 便携包，并把 `ffmpeg` / `ffprobe` 一起塞进去：
