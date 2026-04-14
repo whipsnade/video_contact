@@ -1,0 +1,336 @@
+QWidget {
+  font-family: "Airbnb Cereal VF", "Circular", -apple-system, system-ui, "Segoe UI", "Helvetica Neue", sans-serif;
+  color: #222222;
+  background-color: #ffffff;
+}
+
+QMainWindow {
+  background: #ffffff;
+}
+
+QScrollArea#surfaceScroll {
+  background: transparent;
+  border: none;
+}
+
+QFrame#heroCard,
+QFrame#summaryCard,
+QFrame#stagePanel,
+QFrame#heroStatCard,
+QGroupBox {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-radius: 26px;
+}
+
+QFrame#heroCard {
+  border-radius: 32px;
+}
+
+QGroupBox {
+  padding-top: 18px;
+  font-weight: 600;
+}
+
+QGroupBox::title {
+  subcontrol-origin: margin;
+  subcontrol-position: top left;
+  padding: 0 10px;
+  color: #222222;
+  font-size: 12px;
+  letter-spacing: 0.32px;
+}
+
+QLabel#heroBadge {
+  background: #ff385c;
+  color: #ffffff;
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+
+QLabel#windowTitleLabel {
+  font-size: 32px;
+  font-weight: 700;
+  color: #222222;
+  letter-spacing: -0.4px;
+}
+
+QLabel#windowSubtitleLabel {
+  color: #6a6a6a;
+  font-size: 14px;
+}
+
+QLabel#featurePill {
+  background: #fafafa;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 999px;
+  padding: 7px 12px;
+  color: #222222;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.24px;
+}
+
+QLabel#heroStatLabel {
+  color: #6a6a6a;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+}
+
+QLabel#heroStatValue {
+  color: #222222;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.18px;
+}
+
+QLabel#sectionTitle {
+  color: #6a6a6a;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+QLabel#orderSummaryLabel {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222222;
+  letter-spacing: -0.18px;
+}
+
+QLabel#summaryHintLabel {
+  color: #6a6a6a;
+  font-size: 12px;
+}
+
+QLabel#sectionHelperLabel {
+  color: #6a6a6a;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+QLabel#mediaBadge {
+  background: rgba(255, 56, 92, 0.12);
+  border: 1px solid rgba(255, 56, 92, 0.18);
+  border-radius: 14px;
+  padding: 8px 12px;
+  color: #ff385c;
+  font-weight: 700;
+}
+
+QLabel#pathValueLabel,
+QLabel#outputPathValue,
+QLabel#metaValueLabel,
+QLabel#qualityNoteLabel,
+QLabel#statusLabel {
+  color: #6a6a6a;
+  font-size: 12px;
+}
+
+QLabel#outputPathValue {
+  font-size: 11px;
+  color: #222222;
+}
+
+QLabel#validationLabel {
+  color: #c13515;
+  font-size: 12px;
+}
+
+QPushButton {
+  background: #222222;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  padding: 0 20px;
+  min-height: 44px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+QPushButton:hover {
+  background: #3a3a3a;
+  border-color: #3a3a3a;
+}
+
+QPushButton#primaryButton {
+  background: #222222;
+  border-color: #222222;
+}
+
+QPushButton#primaryButton:hover {
+  background: #ff385c;
+  border-color: #ff385c;
+}
+
+QPushButton#primaryButton:pressed {
+  background: #e00b41;
+  border-color: #e00b41;
+}
+
+QPushButton#secondaryButton {
+  background: #f2f2f2;
+  color: #222222;
+  border-color: #f2f2f2;
+}
+
+QPushButton#secondaryButton:hover {
+  background: #ebebeb;
+  border-color: #d9d9d9;
+}
+
+QPushButton#ghostButton {
+  background: #ffffff;
+  color: #222222;
+  border-color: #c1c1c1;
+}
+
+QPushButton#ghostButton:hover {
+  background: #f7f7f7;
+  border-color: #b5b5b5;
+}
+
+QPushButton#secondaryButton:pressed {
+  background: #e0e0e0;
+  border-color: #d4d4d4;
+}
+
+QPushButton#ghostButton:pressed {
+  background: #f0f0f0;
+  border-color: #a8a8a8;
+}
+
+QPushButton:disabled {
+  background: #f7f7f7;
+  color: rgba(0, 0, 0, 0.24);
+  border-color: #ececec;
+}
+
+QComboBox,
+QSpinBox {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 14px;
+  padding: 0 14px;
+  min-height: 44px;
+  color: #222222;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+QComboBox:hover,
+QSpinBox:hover {
+  border-color: rgba(0, 0, 0, 0.18);
+}
+
+QComboBox:focus,
+QSpinBox:focus,
+QComboBox:focus-within,
+QSpinBox:focus-within {
+  border-color: #ff385c;
+  background: #fffafc;
+}
+
+QComboBox QLineEdit,
+QSpinBox QLineEdit {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: #222222;
+  selection-background-color: rgba(255, 56, 92, 0.16);
+}
+
+QComboBox::drop-down {
+  border: none;
+  width: 0px;
+}
+
+QComboBox QAbstractItemView {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  selection-background-color: rgba(255, 56, 92, 0.12);
+  selection-color: #222222;
+}
+
+QSpinBox::up-button,
+QSpinBox::down-button {
+  width: 0px;
+  border: none;
+  background: transparent;
+}
+
+QProgressBar {
+  background: #f2f2f2;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  text-align: center;
+  color: #222222;
+  height: 18px;
+}
+
+QProgressBar::chunk {
+  border-radius: 9px;
+  background: #ff385c;
+}
+
+QPlainTextEdit#logView {
+  background: #fafafa;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  color: #222222;
+  font-family: "SF Mono", "Menlo", "Consolas", monospace;
+  font-size: 10px;
+}
+
+QListWidget#stageGrid {
+  background: transparent;
+  border: none;
+}
+
+QFrame#stageCard {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 22px;
+}
+
+QFrame#stageCard:hover {
+  border-color: rgba(255, 56, 92, 0.28);
+}
+
+QLabel#stageCardBadge {
+  background: #ff385c;
+  border: 1px solid #ff385c;
+  border-radius: 26px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+QLabel#stageCardPosition {
+  font-size: 15px;
+  font-weight: 700;
+  color: #222222;
+}
+
+QLabel#stageCardOriginal {
+  font-size: 12px;
+  color: #6a6a6a;
+}
+
+QLabel#stageCardHint {
+  font-size: 12px;
+  color: #929292;
+}
+
+QLabel#stageCardDragIcon {
+  background: #f2f2f2;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 999px;
+}
